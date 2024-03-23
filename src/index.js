@@ -1,0 +1,21 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import { BrowserRouter } from "react-router-dom";
+import BookTripContext from "./context/BookTripContext";
+import CartContextProvider from "./context/CartContextProvider";
+import AuthContext from "./context/AuthContext";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <BrowserRouter>
+    <BookTripContext>
+      <CartContextProvider>
+        <AuthContext>
+          <App />
+        </AuthContext>
+      </CartContextProvider>
+    </BookTripContext>
+  </BrowserRouter>
+);

@@ -1,0 +1,50 @@
+.visaHeader h1 {
+  color: var(--1st, #181e4b);
+  font-family: Volkhov;
+  font-size: 84px;
+  margin: 140px 0px 0px 150px;
+}
+.visaContent h2 {
+  color: var(--1st, #181e4b);
+  font-family: Volkhov;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+.visaContent {
+  margin: 50px 0px 50px 150px;
+  width: 80%;
+  box-shadow: 10px 10px 10px 10px rgb(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  background-image: url(/src/images/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.visaList {
+  display: flex;
+}
+.visaListRight {
+  width: 50%;
+}
+.visaList li {
+  color: var(--TEXT-CLR, #404047);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.visaContentDown h3 {
+  color: var(--1st, #181e4b);
+  font-family: Volkhov;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left: 25px;
+}
+.visaContentDown li {
+  color: var(--TEXT-CLR, #404047);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}

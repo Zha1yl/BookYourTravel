@@ -1,0 +1,56 @@
+.categoryWrapper {
+  margin-top: 105px;
+}
+.category p {
+  color: var(--TEXT-CLR, #5e6282);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+}
+.category h2 {
+  color: var(--3rd, #14183e);
+  text-align: center;
+  font-family: Volkhov;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+.categoryCards {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-right: 125px;
+  gap: 78px;
+}
+.categoryCard {
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.categoryCard span {
+  color: var(--TEXT-CLR, #5e6282);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.categoryCard p {
+  color: var(--text-heading-color, #1e1d4c);
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 600;
+}
+.plane {
+  margin-top: -4px;
+}
+.microphon {
+  margin-top: 3px;
+}
+.setting {
+  margin-top: 15px;
+}

@@ -1,0 +1,62 @@
+.aboutUsWrapper {
+  display: flex;
+  margin-top: 209px;
+  margin-left: 150px;
+  margin-bottom: 100px;
+}
+.leftBlock p {
+  color: var(--TEXT-CLR, #5e6282);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+}
+.leftBlock h2 {
+  color: var(--3rd, #14183e);
+  font-family: Volkhov;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: capitalize;
+  width: 409px;
+}
+.rightBlock {
+  position: relative;
+  margin: 0 auto;
+}
+.rightBlock1 {
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.rightBlock1::before {
+  content: url(/src/images/man.png);
+}
+.rightBlock span {
+  color: var(--TEXT-CLR, #5e6282);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.rightBlock p {
+  color: var(--TEXT-CLR, #5e6282);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+}
+.rightBlock2 {
+  position: absolute;
+  top: 239px;
+  left: 78px;
+  width: 390px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
+.aboutUsLogos {
+  margin-top: 200px;
+  text-align: center;
+}

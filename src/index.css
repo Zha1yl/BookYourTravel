@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Volkhov:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Poppins&display=swap");
+@import "~leaflet/dist/leaflet.css";
+.addProduct {
+  width: 50vw;
+  height: 500;
+  margin: 20px auto;
+  box-shadow: 10px 10px 10px 10px rgb(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 10px;
+}
+.addInp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.addInp input {
+  margin-top: 10px;
+  background-color: aliceblue;
+  height: 42px;
+  border: none;
+}
+.addProduct button {
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: coral;
+  border: none;
+}
+/* cardTour */
+.cardTours {
+  height: 400px;
+  width: 350px;
+  box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.1);
+  border-radius: 7px;
+  padding: 10px;
+}
+.cardTours img {
+  height: 200px;
+  width: 350px;
+}
+.productList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 150px 0px 0px 150px;
+}
+/* details */
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  width: 24%;
+  border-radius: 5px;
+  position: relative;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* edit */
+.edit {
+  width: 500px;
+  height: 250px;
+  margin: 50px auto;
+  box-shadow: 10px 10px 10px 10px rgb(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: aliceblue;
+  background-image: url(./images/abstract-colourful-watercolour-background-free-vector.jpg);
+}
+/* map */
+.mapHeader {
+  color: var(--1st, #181e4b);
+  font-family: Volkhov;
+  font-size: 50px;
+  margin: 140px 0px 0px 150px;
+}
+.map-container {
+  width: 80%;
+  height: 450px;
+  position: relative;
+  margin: 50px 0px 0px 150px;
+}
+.contactMap {
+  margin: 20px 0px 0px 150px;
+  color: var(--3rd, #14183e);
+  font-family: Volkhov;
+  font-size: 25px;
+  font-weight: 700;
+}
+.phone::before {
+  content: url(/src/images/businessman_specialist_quality_manager_professional_consultant_expert_icon_261709.svg);
+}
+.mail::before {
+  content: url(/src/images/crime_email_hacker_scam_virus_spam_phishing_icon_261475.svg);
+}
+.onMap::before {
+  content: url(/src/images/view_zoom_magnifier_magnifying_glass_find_search_icon_261677.svg);
+}
+.phone,
+.mail,
+.onMap {
+  width: 55px;
+}
+.map-wrapper {
+  display: flex;
+  width: 100%;
+}
+.map {
+  width: 50%;
+}
+/* payment modal window */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalPayment {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.modalPayment h2 {
+  margin-bottom: 20px;
+}
+
+.modalPayment form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modalPayment label {
+  margin-bottom: 10px;
+}
+
+.modalPayment input[type="radio"] {
+  margin-right: 5px;
+}
+
+.modalPayment button {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+
+.modalPayment button:hover {
+  background-color: #0056b3;
+}
+.btnModalPayment {
+  margin-top: 10px;
+}

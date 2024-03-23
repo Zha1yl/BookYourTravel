@@ -1,0 +1,28 @@
+{
+  "product": [
+    {
+      "place": "Lissabon",
+      "date": "29 of February",
+      "days": "5 days 6 night",
+      "price": "1500",
+      "image": "https://tripplanet.ru/wp-content/uploads/europe/portugal/lisbon/dostoprimechatelnosti-lissabona.jpg",
+      "id": 1
+    },
+    {
+      "place": "Istambul",
+      "date": "7 february",
+      "days": "7 Days 8 Night",
+      "price": "750",
+      "image": "https://viasun.ru/blog/wp-content/uploads/2022/06/Stambul.jpg",
+      "id": 4
+    },
+    {
+      "place": "Рио-Де-Жанейро",
+      "date": "10.03",
+      "days": "10",
+      "price": "3000",
+      "image": "https://images.triphearts.com/ncUGgvW9t-BrzTw0uFBdecRH8zqialKK1OLaoFMI2U0/fit/600/600/no/0/aHR0cHM6Ly9hbXMz/LmRpZ2l0YWxvY2Vh/bnNwYWNlcy5jb20v/dHJpcGhlYXJ0cy1z/dG9yYWdlL2dlb25h/bWVzL2NpdGllcy81/MzkvcmlvLWRlLWph/bmVpcm9fOGRlMDIy/ZDUwMi5qcGc.jpg",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+.tripBlocks {
+  margin-top: 186px;
+  margin-left: 150px;
+  display: flex;
+  gap: 20%;
+}
+.mainText p {
+  color: var(--TEXT-CLR, #5e6282);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+}
+.mainText h2 {
+  color: var(--3rd, #14183e);
+  font-family: Volkhov;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: capitalize;
+  width: 500px;
+}
+.textWithIcon > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.textWithIcon > div p {
+  margin-left: 20px;
+  color: var(--TEXT-CLR, #5e6282);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 124.5%;
+}
+.textWithIcon > div::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  background-size: cover;
+}
+
+.icon1::before {
+  background-image: url(/src//images/icon1.svg);
+}
+
+.icon2::before {
+  background-image: url(/src//images/icon2.svg);
+}
+
+.icon3::before {
+  background-image: url(/src//images/icon3.svg);
+}
+.tripCard {
+  width: 300px;
+  padding: 20px;
+  background-color: #fefdfd;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 105px;
+}
+.tripCard:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.tripCard img {
+  width: 100%;
+  height: 70%;
+  border-radius: 24px;
+}
+.tripCard span {
+  display: block;
+  margin-top: 10px;
+  color: var(--black, #080809);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 124.5%;
+  letter-spacing: 0.27px;
+}
+.tripCard p::after {
+  content: url(/src/images/heart.svg);
+  margin-left: 150px;
+}
+.tripCard p {
+  color: var(--text-2, #84829a);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 124.5%;
+  letter-spacing: -0.08px;
+}

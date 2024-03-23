@@ -1,0 +1,26 @@
+.navbar::before {
+  content: url(/src/images/Logo.svg);
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 0px 0px 20px;
+  text-decoration: none;
+}
+.navbar a {
+  margin-top: 15px;
+  color: var(--1st, #212832);
+  font-size: 17px;
+  font-weight: 400;
+}
+.navbar span {
+  margin-top: 15px;
+  color: var(--1st, #212832);
+  font-size: 17px;
+  font-weight: 400;
+}
+.signUp {
+  border-radius: 5px;
+  border: 1px solid var(--1st, #212832);
+  padding: 3px;
+}

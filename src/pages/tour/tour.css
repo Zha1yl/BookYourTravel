@@ -1,0 +1,11 @@
+.tour h1 {
+  color: var(--3rd, #1f223b);
+  font-family: Volkhov;
+  font-size: 45px;
+  font-weight: 700;
+  margin: 90px 0px 0px 150px;
+}
+.tourCard {
+  display: flex;
+  justify-content: space-between;
+}

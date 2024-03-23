@@ -1,0 +1,73 @@
+.footer {
+  margin-top: 100px;
+}
+.footerBlocks {
+  display: flex;
+  gap: 125px;
+  margin-left: 150px;
+}
+.footerBlocks h4 {
+  color: var(--black, #080809);
+  font-family: Poppins;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 124.5%;
+  margin-top: 7px;
+}
+.footerBlocks h2 {
+  color: var(--1st, #181e4b);
+  font-family: Poppins;
+  font-size: 44px;
+  font-weight: 400;
+}
+.footerBlocks span {
+  color: var(--TEXT-CLR, #5e6282);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 184.5%;
+}
+.footerBlocks .block2,
+.block3,
+.block4,
+.block5 {
+  margin-top: 48px;
+}
+.footerDown {
+  text-align: center;
+  color: var(--TEXT-CLR, #5e6282);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 124.5%;
+  margin-top: 86px;
+}
+.block1 p {
+  color: var(--TEXT-CLR, #5e6282);
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 124.5%;
+  width: 181px;
+}
+.block2 {
+  display: flex;
+  flex-direction: column;
+}
+.block3 {
+  display: flex;
+  flex-direction: column;
+}
+.block4 {
+  display: flex;
+  flex-direction: column;
+}
+.block5Up {
+  margin-left: 45px;
+}
+.block5Down {
+  margin-top: 20px;
+}
+.block5 span {
+  margin-left: 29px;
+}
